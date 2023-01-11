@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&family=Open+Sans&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project {
+    background-color: #2C73D2;
+}
+
+.container-project {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-project h1 {
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+
+.project-form {
+    border: 2px solid #000;
+    padding: 20px 30px; 
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+}
+.project-form form {
+    font-family: 'Inter', sans-serif;
+}
+
+.project-form [type=submit] {
+    padding: 15px 50px;
+
+}
