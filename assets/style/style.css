@@ -77,9 +77,18 @@
  .container-project #resultado {
     text-align: center;
     font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
     font-size: 1.2rem;
-    margin-top: 50px;
-    width: 80vw;
-    height: 450px;
+    margin-top: 10px;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.container-project #resultado-img {
+    width: 1000px;
+    height: 400px;
+    margin-top: 10px;
     background-color: #fff;
 }
