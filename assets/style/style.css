@@ -8,13 +8,18 @@
 
 .project {
     position: relative;
-    background-color: #2C73D2;
+    background-color: #4069e1;
 }
 
 .project img.homer {
     position: absolute;
     top: 80px;
     left: 100px;
+}
+.project img.homer2 {
+    position: absolute;
+    top: 30px;
+    right: 140px;
 }
 
 .container-project {
@@ -28,7 +33,7 @@
     margin: 50px;
     font-size: 3rem;
     font-family: 'Inter', sans-serif;
-    color: #fff;
+    color: #ffd700;
 }
 
 
@@ -49,7 +54,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid ;
 
 }
 
@@ -59,11 +64,16 @@
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    border: 1px solid;
+    border: 1px solid #000;
     border-radius: 10px;
     cursor: pointer;
 }
-
+.project-form [type=submit]:hover {
+    color: #000;
+    border: 1px solid #ffd700;
+    background-color: #ffd700;
+    transition: .3s ease-in-out;
+}
  .container-project #resultado {
     text-align: center;
     font-family: 'Inter', sans-serif;
