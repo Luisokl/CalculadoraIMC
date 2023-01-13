@@ -9,22 +9,22 @@
 </head>
 <body>
     <section class="project">
+        <img src="/assets/images/rosca.png" alt="">
         <div class="container-project">
             <h1>Calculadora IMC</h1>
+            
 
             <div class="project-form">
                 <form onsubmit="return calcular(event)">
-                    <label>Digite seu peso:</label>
-                    <input type="text" name="peso" id="peso" placeholder="Exemplo 67"> <br><br>
+                    <input type="text" name="peso" id="peso" placeholder="Digite o seu peso"> <br><br>
+        
+                    <input type="text" name="altura" id="altura" placeholder="Digite a sua altura"> <br><br>
             
-                    <label>Digite sua altura:</label>
-                    <input type="text" name="altura" id="altura" placeholder="Exemplo 1.75"> <br><br>
-            
-                    <input type="submit" value="Calcular IMC">
+                    <input type="submit" value="Calcular">
                 </form>
-            
-                <div id="resultado"></div>
             </div>
+
+             <div id="resultado"></div>
         </div>
     </section>
 
