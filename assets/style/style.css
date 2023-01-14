@@ -11,10 +11,12 @@
     background-color: #4069e1;
 }
 
-.project img.homer {
+.project img.logo {
+    width: 500px;
     position: absolute;
-    top: 80px;
-    left: 100px;
+    top: 150px;
+    left: 80px;
+    rotate: -10deg;
 }
 .project img.homer2 {
     position: absolute;
@@ -87,4 +89,8 @@
 }
 .container-project #resultado2 {
     margin-top: 20px;
+}
+.container-project #resultado2 img {
+    max-width: 400px;
+    height: auto;
 }

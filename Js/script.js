@@ -29,8 +29,10 @@ function calcular(event) {
         novoElement.setAttribute('src', "/assets/images/homer5.png")
     } else if(imc > 25 && imc <= 29.99) {
         resultado.innerHTML = '<br>Seu resultado foi: ' + imc.toFixed(2) + '<br> Você está no acima do peso!'
+        novoElement.setAttribute('src', "/assets/images/homer6.png")
     } else if(imc >= 30) {
         resultado.innerHTML = '<br>Seu resultado foi: ' + imc.toFixed(2) + '<br> Cuidado Obesidade!'
+        novoElement.setAttribute('src', "/assets/images/homer7.png")
     }
 
     document.getElementById('peso').value = '';
