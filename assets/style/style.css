@@ -22,6 +22,15 @@
     position: absolute;
     top: 30px;
     right: 140px;
+    animation: flutuante 20s ease-in-out infinite;
+}
+@keyframes flutuante {
+    0%, 100% {
+        transform: translateX(100px)
+    }
+    50% {
+        transform: translateX(-90px);
+    }
 }
 
 .container-project {
@@ -57,6 +66,7 @@
     font-size: 1.2rem;
     border: none;
     border-bottom: 1px solid ;
+    outline: none;
 
 }
 
@@ -83,7 +93,7 @@
     font-size: 1.1rem;
     margin-top: 10px;
     width: 400px;
-    height: 100px;
+    height: 70px;
     border-radius: 20px;
     background-color: #fff;
 }
